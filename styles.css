@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Un tono suave de azul */
+    color: #333; /* Un color de texto oscuro para contrastar con el fondo claro */
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #ffdb77; /* Un tono suave de amarillo */
+    padding: 20px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px; /* Botones más grandes */
+    background-color: #009cd1; /* Un tono suave de azul */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 5px; /* Esquinas redondeadas */
+    color: white; /* Texto blanco */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+}
+
+button:hover {
+    background-color: #006b8f; /* El botón se vuelve un poco más oscuro al pasar el ratón sobre él */
+}
+
+input[type="text"] {
+    width: 100%; /* Hace que el cuadro de texto ocupe todo el ancho disponible */
+    padding: 10px; /* Añade un poco de espacio alrededor del texto */
+    border: 1px solid #ccc; /* Un borde sutil */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-sizing: border-box; /* Asegura que el padding no haga que el cuadro de texto sea más grande */
+}
+
+table {
+    width: 100%; /* Hace que la tabla ocupe todo el ancho disponible */
+    border-collapse: collapse; /* Elimina los espacios dobles entre las celdas */
+}
+
+th, td {
+    padding: 10px; /* Añade un poco de espacio alrededor del texto en las celdas */
+/*            border: 1px solid #ccc; /* Un borde sutil */*/
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+th {
+    background-color: #800080; /* Un tono de morado para los encabezados de la tabla */
+    color: white; /* Texto blanco para contrastar con el fondo morado */
+}
+
+tr:nth-child(even) {
+    background-color: none; /* Un tono de rojo para las filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ebc559; /* Un tono de morado para las filas impares */
+    color: white; /* Texto blanco para contrastar con el fondo morado */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    resize: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Un color de fondo gris claro */
+    color: #333; /* Un color de texto oscuro */
+}

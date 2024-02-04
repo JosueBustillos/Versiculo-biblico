@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiar</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/diff_match_patch/20121119/diff_match_patch.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="anadir">Añadir</button>
+        <button id="estudiar">Estudiar</button>
+        <button id="editar">Editar</button>
+        <div id="anadirContainer" style="display: none;">
+            <input type="text" id="titulo" placeholder="Título">
+            <input type="text" id="texto" placeholder="Texto">
+            <button id="aceptar">Aceptar</button>
+        </div>
+        <div id="estudiarContainer" style="display: none;">
+            <h1 id="tituloEstudio"></h1>
+            <textarea id="textoEstudio" placeholder="Escribe aquí..."></textarea>
+            <button id="revisar">Revisar</button>
+            <p id="comparacion"></p>
+            <button id="continuar">Continuar</button>
+        </div>
+        <div id="editarContainer" style="display: none;">
+            <table id="editarTabla">
+                <!-- Las filas de la tabla se llenarán dinámicamente -->
+            </table>
+            <button id="exportar">Exportar</button>
+            <button id="importar">Importar</button>
+            <button id="guardarCambios">Guardar cambios</button>
+        </div>
+        <div id="mensaje" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
